@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        body{
+            padding: 0;
+            margin: 0;
+            
+        
+            margin: 0;
+            filter: brightness(70% 50%);
+            margin-bottom: 30px;
+        }
+        .container{
+            background-color: #ffffff;
+            padding: 30px;
+        }
+        .hero{
+           background-color: rgb(41, 41, 70);
+           color: white;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           border-left: 30px;
+           border: 10px;
+           border-radius: 40px;
+        }
+    
+  .hero-content {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* This is the key change */
+    justify-content: center; /* This will center items vertically on the new main axis */
+    align-items: center;    /* This will center items horizontally on the new cross axis */
+    min-height: 60vh;
+}
+        .hero-container {
+    max-width: 900px; /* Max width for the hero's content area */
+    margin: 0 auto; /
+    
+}
+        .hero- content h1{
+            font-size: 30px;
+            color: white;
+            font-weight: bold;
+
+        }
+        .btn { /* General button styling */
+    padding: 10px 20px; /* Added horizontal padding for better look */
+    border-radius: 15px;
+    font-size: 1rem; /* Base font size */
+    cursor: pointer; /* Indicates it's clickable */
+    text-decoration: none; /* In case you use <a> for buttons */
+    display: inline-block; /* Allows padding/margin and respects text flow */
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease; /* Smooth transitions */
+    min-width: 120px; /* Give buttons a consistent minimum width */
+    text-align: center; /* Center the text within the button */
+}
+
+/* Specific style for a default button */
+.btn-default {
+    border: 1px solid #ccc; /* A light grey border */
+    background-color: white;
+    color: #333;
+}
+
+.btn-default:hover {
+    background-color: #f0f0f0; /* Slight hover effect */
+    border-color: #999;
+}
+
+/* Specific style for a primary (blue) button */
+.btn-primary { /* Equivalent to your .button-1 */
+    border: 1px solid blue;
+    background-color: blue;
+    color: white; /* Text color for blue background */
+}
+
+.btn-primary:hover {
+    background-color: darkblue;
+    border-color: darkblue;
+}
+.button-group {
+    display: flex;
+    flex-direction: row; 
+    gap: 15px; 
+    justify-content: center; 
+    align-items: center;
+    margin-top: 10px; 
+}
+  .footer {
+  display: flex;
+  gap: 300px;
+  justify-content: space-between; /* spaces out left, center, and right */
+  align-items: center;            /* vertically centers everything */
+  padding: 30px;
+  background-color: #fff;         /* change to your desired color */
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+  
+  text-align: center;
+  justify-content: space-between;
+}
+
+.footer-left {
+  text-align: left;
+}
+
+.footer-right {
+  text-align: right;
+}
+
+.footer-logo,
+.footer-brand {
+  height: 30px; /* adjust as needed */
+}
+        .footer-section ul {
+    list-style: none; /* Remove bullet points */
+    
+    justify-content: center;
+    padding: 0;
+    display: inline-flex; /* Make list items inline */
+    gap: 10px; /* Space between list items */
+}
+
+.footer-section ul li {
+    display: inline-block; 
+    justify-items: center;
+    gap: 60px;
+}
+       
+        </style>
+    </head>
+    <body>
+            <div class="hero-container">
+                <div class="hero">
+                <div class="hero-content">
+                    <h1>Ready to
+                        <br>
+                        Elevate your brand
+                    </h1>
+            
+                    <p>Start your subscription today. Premium creative partnership with 
+                        <br>
+                        no contract no risk and unlimited potential
+                    </p>
+                    <div class="button-group">
+                    <button class="btn btn-default">views Pricing & Plans</button>
+                    <button class="btn btn-primary">Schedule a call</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <footer class="footer">
+            <div class="footer-section">
+                <footer class="footer">
+  <div class="footer-left">
+    <ul>
+   <li> <img src="57642995_sl_z_072523_61700_05.jpg" alt="Logo" class="footer-logo"></li>
+   <li><img src="150898146_10462345 (4).png" alt="logo" class="footer-logo"></li>
+   <li><img src="413126323_3f0318f5-939f-404a-ae40-1260485bfff6.jpg" alt="logo" class="footer-logo"></li>
+   <li><img src="150897973_10462343 (1).png" alt="logo" class="footer-logo"></li>
+  </div>
+</ul>
+  <div class="footer-center">
+    <p>© Build With Production 2025</p>
+  </div>
+
+  <div class="footer-right">
+
+    <img src="product-logo.png" alt="ProductsIO" class="footer-brand">
+  </div>
+</footer>
+
+    
+
+    </body>
+</html>
