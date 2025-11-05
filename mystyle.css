@@ -209,11 +209,14 @@ h1{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 
-
+  margin: 40px;
+}
+.footer-left{
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
-.footer-left,
 .footer-center,
 .footer-right {
   justify-content: space-between;
@@ -527,9 +530,6 @@ ul li a:hover {
     margin:  1.5rem auto;
     padding: 20px;
   }
-
-  .footer-nav,
-  .footer-left,
   .footer-center,
   .footer-right {
     flex-direction: column;
@@ -590,8 +590,7 @@ ul li a:hover {
     margin: 1rem auto;
   }
 
-  .footer,
-  .footer-nav {
+  .footer  {
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -599,7 +598,6 @@ ul li a:hover {
     margin-top: 10px;
   }
 
-  .footer-left,
   .footer-center,
   .footer-right {
     flex-direction: column;
@@ -744,13 +742,13 @@ ul li a:hover {
         text-align: center;
         padding: 10px;
       }
-.footer-nav {
-display: flex;
-  justify-content: space-between;
-  align-items:flex-end;
-  
-
-}
+      .footer-nav {
+      display: flex;
+        justify-content: space-between;
+        /* align-items:flex-end; */
+        
+      gap: 10px;
+      }
 .footer{
   display: flex;
   justify-content: space-between;
